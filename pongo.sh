@@ -112,7 +112,7 @@ function globals {
 
   # development EE images repo, these require to additionally set the credentials
   # in $DOCKER_USERNAME and $DOCKER_PASSWORD
-  DEVELOPMENT_EE_TAG="kong/kong-gateway-internal:master-ubuntu"
+  DEVELOPMENT_EE_TAG="kong/kong-gateway-internal:master"
 
   # development CE images, these are public, no credentials needed
   DEVELOPMENT_CE_TAG="kong/kong:master-ubuntu"
