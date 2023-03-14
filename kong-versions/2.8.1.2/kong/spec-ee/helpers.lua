@@ -180,6 +180,7 @@ local function get_portal_api_port(ssl)
   error("No portal port found for ssl=" .. tostring(ssl), 2)
 end
 
+_M.get_portal_api_port = get_portal_api_port
 
 --- Returns the Dev Portal ip.
 -- @param ssl (boolean) if `true` returns the ssl ip address
